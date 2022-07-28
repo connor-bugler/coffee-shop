@@ -2,3 +2,4 @@ numpy
 pandas
 prophet
 streamlit
+matplotlib
