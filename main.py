@@ -97,3 +97,4 @@ def predict_future_sales(store_transactions, periods=30):
 
 if __name__ == '__main__':
     main()
+    import sales_weather_forecast
