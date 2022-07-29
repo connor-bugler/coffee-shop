@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 from datetime import datetime
 from prophet import Prophet
+from sales_weather_forecast import sales_weather_forecast
 
 
 def main():
@@ -62,7 +63,7 @@ def main():
                       [['y']]
                       .rename(columns={'y': 'Net sales'})
                       .cumsum())
-    import sales_weather_forecast
+    sales_weather_forecast()
 
 
 @st.cache
